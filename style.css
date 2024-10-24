@@ -24,3 +24,9 @@ body {
     'projects announcements'
     'projects trending';
 }
+
+.user-projects {
+  grid-area: projects;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
