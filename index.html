@@ -24,16 +24,33 @@
       <li>Privacy</li>
     </ul>
   </aside>
-  <header class="header"></header>
+  <header class="header">
+    <div class="header__top">
+      <button type="button" id="search-btn"></button>
+      <label for="search-field"></label>
+      <input type="search" name="" id="search-field">
+      <button type="button" id="notifications"></button>
+      <img src="" alt="" class="avatar">
+      <p class="username">Morgan Oakley</p>
+    </div>
+
+    <div class="header__bottom">
+      <div class="buttons">
+        <button type="button" class="user-action-btn" id="new">New</button>
+        <button type="button" class="user-action-btn" id="upload">Upload</button>
+        <button type="button" class="user-action-btn" id="share">Share</button>
+      </div>
+    </div>
+  </header>
   <main class="main">
     <div class="user-projects">
       <div class="project-card">
         <h3 class="title">Super Cool Project</h3>
         <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, praesentium suscipit nostrum consectetur unde neque fugit quod! Quia repudiandae voluptates ratione magnam? Exercitationem minus repellat quam architecto voluptatem perferendis. Ipsa.</p>
         <div class="buttons">
-          <button class="favorite"></button>
-          <button class="follow"></button>
-          <button class="share"></button>
+          <button type="button" class="favorite"></button>
+          <button type="button" class="follow"></button>
+          <button type="button" class="share"></button>
         </div>
       </div>
     </div>
