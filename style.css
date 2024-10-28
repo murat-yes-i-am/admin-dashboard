@@ -11,6 +11,10 @@ body {
   grid-area: sidebar;
 }
 
+.nav ul {
+  list-style: none;
+}
+
 .header {
   grid-area: header;
 }
