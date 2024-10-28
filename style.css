@@ -19,6 +19,11 @@ body {
   list-style: none;
 }
 
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .icon {
   height: 1rem;
   display: inline-block;
