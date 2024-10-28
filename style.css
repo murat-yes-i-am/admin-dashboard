@@ -59,11 +59,23 @@ body {
   grid-area: trending;
 }
 
-.trending {
+.trend {
   display: grid;
   grid-template-columns: var(--avatar-image-size) 1fr;
   grid-template-rows: 1f 1fr;
   grid-template-areas: 
     'avatar tag'
     'avatar description';
+}
+
+.avatar {
+  grid-area: avatar;
+}
+
+.tag {
+  grid-area: tag;
+}
+
+.description {
+  grid-area: description;
 }
