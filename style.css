@@ -1,5 +1,7 @@
 :root {
   --avatar-image-size: 4rem;
+  --sidebar-main-color: white;
+  --sidebar-secondary-color: black;
 }
 
 body {
