@@ -20,6 +20,13 @@ body {
   display: inline-block;
 }
 
+.avatar {
+  /* display: inline-block; */
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+}
+
 .header {
   grid-area: header;
 }
