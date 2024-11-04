@@ -19,15 +19,18 @@ button {
 
 .sidebar {
   grid-area: sidebar;
+  background-color: var(--sidebar-main-color);
+  color: var(--sidebar-secondary-color);
 }
 
 .nav ul {
   list-style: none;
+
 }
 
 .nav ul li a {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 .icon {
