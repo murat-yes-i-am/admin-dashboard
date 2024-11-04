@@ -2,7 +2,7 @@
   --avatar-image-size: 4rem;
   --sidebar-main-color: rgb(255, 255, 255);
   --sidebar-secondary-color: rgb(0, 0, 0);
-  --gray-color: gray;
+  --gray-color: #dadcdd;
   --white-color: white;
   --card-border-color: orange;
 }
