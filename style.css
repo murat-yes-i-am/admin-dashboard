@@ -1,7 +1,8 @@
 :root {
   --avatar-image-size: 4rem;
-  --sidebar-main-color: white;
-  --sidebar-secondary-color: black;
+  --sidebar-main-color: rgb(255, 255, 255);
+  --sidebar-secondary-color: rgb(0, 0, 0);
+  --gray-color: gray;
 }
 
 body {
@@ -25,7 +26,6 @@ button {
 
 .nav ul {
   list-style: none;
-
 }
 
 .nav ul li a {
@@ -56,7 +56,7 @@ button.user-action-btn {
 }
 
 .main-content {
-  background-color: gray;
+  background-color: var(--gray-color);
   grid-area: main;
   display: grid;
   grid-template-columns: 3fr 1fr;
