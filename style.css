@@ -140,6 +140,7 @@ button.user-action-btn {
   grid-template-areas: 
     'avatar tag'
     'avatar description';
+  gap: 0 1rem;
 }
 
 .avatar {
