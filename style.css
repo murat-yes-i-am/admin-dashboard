@@ -149,8 +149,10 @@ button.user-action-btn {
 
 .tag {
   grid-area: tag;
+  align-self: end;
 }
 
 .trend-project {
   grid-area: project;
+  align-self: start;
 }
