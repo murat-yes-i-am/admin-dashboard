@@ -59,6 +59,7 @@ button.icon-btn {
 .nav ul {
   list-style: none;
   padding: 0;
+  margin-bottom: 4rem;
 }
 
 .nav ul li a {
