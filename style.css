@@ -5,6 +5,7 @@
   --gray-color: #dadcdd;
   --white-color: white;
   --card-border-color: orange;
+  --border-radius: 8px;
 }
 
 body {
@@ -96,8 +97,8 @@ button.user-action-btn {
 .project-card {
   padding: 1em;
   background-color: var(--white-color);
-  border-left: 8px solid var(--card-border-color);
-  border-radius: 8px;
+  border-left: var(--border-radius) solid var(--card-border-color);
+  border-radius: var(--border-radius);
 }
 
 .announcements-section {
