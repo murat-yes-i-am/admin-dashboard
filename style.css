@@ -53,7 +53,7 @@ body {
     'projects trending';
 }
 
-.user-projects {
+.user-projects-section {
   grid-area: projects;
 
 }
@@ -63,11 +63,11 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.announcements {
+.announcements-section {
   grid-area: announcements;
 }
 
-.trending {
+.trending-section {
   grid-area: trending;
 }
 
