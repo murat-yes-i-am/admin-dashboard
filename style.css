@@ -151,6 +151,10 @@ p {
   grid-area: announcements;
 }
 
+.announcements .description {
+  font-size: 0.875rem;
+}
+
 .announcements-section hr {
   margin: 1rem 0;
   border: 1px solid var(--gray-color);
