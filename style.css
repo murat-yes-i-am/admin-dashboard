@@ -65,6 +65,7 @@ button.icon-btn {
 }
 
 .header {
+  padding: 1rem 2rem;
   grid-area: header;
 }
 
@@ -75,7 +76,7 @@ button.user-action-btn {
 }
 
 .main-content {
-  padding: 1em;
+  padding: 1rem;
   background-color: var(--gray-color);
   grid-area: main;
   display: grid;
