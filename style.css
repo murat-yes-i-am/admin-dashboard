@@ -3,6 +3,7 @@
   --sidebar-main-color: rgb(255, 255, 255);
   --sidebar-secondary-color: rgb(0, 0, 0);
   --gray-color: gray;
+  --white-color: white;
   --card-border-color: orange;
 }
 
@@ -57,6 +58,7 @@ button.user-action-btn {
 }
 
 .main-content {
+  padding: 1em;
   background-color: var(--gray-color);
   grid-area: main;
   display: grid;
@@ -69,7 +71,6 @@ button.user-action-btn {
 
 .user-projects-section {
   grid-area: projects;
-
 }
 
 .project-cards {
