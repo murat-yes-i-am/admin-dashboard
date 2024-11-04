@@ -139,7 +139,7 @@ button.user-action-btn {
   grid-template-rows: 1f 1fr;
   grid-template-areas: 
     'avatar tag'
-    'avatar description';
+    'avatar project';
   gap: 0 1rem;
 }
 
@@ -151,6 +151,6 @@ button.user-action-btn {
   grid-area: tag;
 }
 
-.description {
-  grid-area: description;
+.trend-project {
+  grid-area: project;
 }
