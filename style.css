@@ -43,6 +43,7 @@ body {
 }
 
 .main-content {
+  background-color: gray;
   grid-area: main;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -54,6 +55,10 @@ body {
 
 .user-projects {
   grid-area: projects;
+
+}
+
+.project-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
