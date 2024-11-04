@@ -42,6 +42,12 @@ body {
   grid-area: header;
 }
 
+button.user-action-btn {
+  background-color: var(--sidebar-main-color);
+  color: var(--sidebar-secondary-color);
+  border-radius: 1rem;
+}
+
 .main-content {
   background-color: gray;
   grid-area: main;
