@@ -20,6 +20,10 @@ button {
   border: none;
 }
 
+button.icon-btn {
+  background-color: var(--white-color);
+}
+
 .sidebar {
   grid-area: sidebar;
   background-color: var(--sidebar-main-color);
