@@ -79,7 +79,7 @@ button.user-action-btn {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: 
     'projects announcements'
-    'projects trending';
+    'projects trends';
   gap: 1rem;
 }
 
@@ -103,8 +103,8 @@ button.user-action-btn {
   grid-area: announcements;
 }
 
-.trending-section {
-  grid-area: trending;
+.trends-section {
+  grid-area: trends;
 }
 
 .trend {
