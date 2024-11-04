@@ -126,7 +126,7 @@ button.user-action-btn {
 .announcements, .trends, .project-card {
   background-color: var(--white-color);
   border-radius: var(--border-radius);
-  padding: 1em;
+  padding: 2em;
 }
 
 .project-card {
