@@ -3,6 +3,7 @@
   --sidebar-main-color: rgb(255, 255, 255);
   --sidebar-secondary-color: rgb(0, 0, 0);
   --gray-color: gray;
+  --card-border-color: orange;
 }
 
 body {
@@ -74,6 +75,10 @@ button.user-action-btn {
 .project-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.project-card {
+  border-left: 6px solid var(--card-border-color);
 }
 
 .announcements-section {
