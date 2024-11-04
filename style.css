@@ -16,6 +16,11 @@ body {
     'sidebar main';
 }
 
+h2 {
+  font-weight: 600;
+  margin: 1em 0;
+}
+
 button {
   border: none;
 }
