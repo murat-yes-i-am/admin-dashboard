@@ -13,6 +13,10 @@ body {
     'sidebar main';
 }
 
+button {
+  border: none;
+}
+
 .sidebar {
   grid-area: sidebar;
 }
