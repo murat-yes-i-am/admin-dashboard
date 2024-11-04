@@ -71,6 +71,7 @@ button.user-action-btn {
   grid-template-areas: 
     'projects announcements'
     'projects trending';
+  gap: 1rem;
 }
 
 .user-projects-section {
