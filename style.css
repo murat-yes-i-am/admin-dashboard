@@ -11,6 +11,7 @@
 }
 
 body {
+  color: var(--main-text-color);
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 4fr;
@@ -115,7 +116,7 @@ button.user-action-btn {
   gap: 1rem;
 }
 
-.main-content p {
+p {
   color: var(--secondary-text-color);
 }
 
@@ -179,6 +180,7 @@ button.user-action-btn {
 }
 
 .tag {
+  color: var(--main-text-color);
   grid-area: tag;
   align-self: end;
 }
