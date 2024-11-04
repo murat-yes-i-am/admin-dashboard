@@ -17,6 +17,11 @@ body {
     'sidebar main';
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
 h2 {
   font-weight: 600;
   margin: 1em 0;
