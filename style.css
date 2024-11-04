@@ -94,16 +94,20 @@ button.user-action-btn {
   gap: 1.5em;
 }
 
-.project-card {
-  padding: 1em;
+.announcements, .trends, .project-card {
   background-color: var(--white-color);
-  border-left: var(--border-radius) solid var(--card-border-color);
   border-radius: var(--border-radius);
+  padding: 1em;
+}
+
+.project-card {
+  border-left: var(--border-radius) solid var(--card-border-color);
 }
 
 .announcements-section {
   grid-area: announcements;
 }
+
 
 .trends-section {
   grid-area: trends;
