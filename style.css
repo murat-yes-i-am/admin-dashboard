@@ -115,6 +115,10 @@ button.user-action-btn {
   gap: 1rem;
 }
 
+.main-content p {
+  color: var(--secondary-text-color);
+}
+
 .user-projects-section {
   grid-area: projects;
 }
