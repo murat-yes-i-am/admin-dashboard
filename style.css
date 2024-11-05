@@ -150,6 +150,7 @@ label[for="search-field"] {
 .header__bottom {
   display: grid;
   padding: 1rem;
+  grid-template-columns: 1fr auto;
   grid-template-areas: "greetings buttons";
 }
 
@@ -186,6 +187,7 @@ label[for="search-field"] {
   grid-area: buttons;
   display: grid;
   grid-template-columns: auto auto auto;
+  align-items: center;
   gap: 2rem;
 }
 
