@@ -254,7 +254,6 @@ label[for="search-field"] {
 .trend {
   display: grid;
   grid-template-columns: var(--avatar-image-size) 1fr;
-  grid-template-rows: 1f 1fr;
   grid-template-areas: 
     "avatar tag"
     "avatar project";
