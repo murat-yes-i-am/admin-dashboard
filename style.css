@@ -98,6 +98,7 @@ button.icon-btn {
 }
 
 button.user-action-btn {
+  font-weight: 600;
   background-color: var(--sidebar-main-color);
   color: var(--sidebar-secondary-color);
   border-radius: 1rem;
