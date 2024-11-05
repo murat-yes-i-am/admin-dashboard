@@ -101,6 +101,7 @@ button.user-action-btn {
   background-color: var(--sidebar-main-color);
   color: var(--sidebar-secondary-color);
   border-radius: 1rem;
+  padding: 1rem;
 }
 
 .main-content {
