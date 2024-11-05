@@ -20,6 +20,19 @@ body {
     'sidebar main';
 }
 
+p {
+  color: var(--secondary-text-color);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.icon-btn {
+  background-color: var(--white-color);
+}
+
 h1 {
   font-weight: 700;
   font-size: 1.75rem;
@@ -45,15 +58,6 @@ h2 {
   font-weight: 600;
 }
 
-button {
-  border: none;
-  cursor: pointer;
-}
-
-button.icon-btn {
-  background-color: var(--white-color);
-}
-
 .sidebar {
   padding: 1rem 0;
   grid-area: sidebar;
@@ -67,7 +71,7 @@ button.icon-btn {
   margin-bottom: 4rem;
 }
 
-.nav ul li a {
+.nav ul a {
   margin: 1rem 0;
   font-weight: 600;
   font-size: 1.5rem;
@@ -97,7 +101,7 @@ button.icon-btn {
   grid-area: header;
 }
 
-button.user-action-btn {
+.user-action-btn {
   font-weight: 600;
   background-color: var(--sidebar-main-color);
   color: var(--sidebar-secondary-color);
@@ -116,10 +120,6 @@ button.user-action-btn {
     'projects announcements'
     'projects trends';
   gap: 1rem;
-}
-
-p {
-  color: var(--secondary-text-color);
 }
 
 .user-projects-section {
