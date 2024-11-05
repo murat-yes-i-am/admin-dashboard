@@ -105,7 +105,7 @@ h2 {
   display: grid;
   grid-template-columns: 2fr auto;
   grid-template-areas: "search user";
-  gap: minmax(2rem, 100px);
+  gap: 2rem;
 }
 
 .search-container {
@@ -123,6 +123,11 @@ h2 {
 
 #search-field {
   grid-area: bar;
+  max-width: 50ch;
+}
+
+label[for="search-field"] {
+  display: none;
 }
 
 .user-container {
