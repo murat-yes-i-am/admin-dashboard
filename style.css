@@ -110,6 +110,19 @@ h2 {
 
 .search-container {
   grid-area: search;
+  display: grid;
+  grid-template-areas: "icon bar";
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+#search-btn {
+  grid-area: icon;
+}
+
+#search-field {
+  grid-area: bar;
 }
 
 .user-container {
