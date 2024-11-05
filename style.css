@@ -15,7 +15,6 @@ body {
   color: var(--main-text-color);
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 4fr;
   grid-template-areas: 
     "sidebar header"
     "sidebar main";
