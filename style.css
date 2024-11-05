@@ -220,6 +220,7 @@ label[for="search-field"] {
 }
 
 .project-cards {
+  height: calc(100% - 1.25rem - 2rem - 1rem);
   display: grid;
   grid-template: 1fr 1fr 1fr / 1fr 1fr;
   gap: 1.5em;
@@ -251,6 +252,7 @@ label[for="search-field"] {
 }
 
 .announcements {
+  height: calc(100% - 1.25rem - 2rem - 1rem);
   box-shadow: 4px 4px 4px 1px var(--shadow-color);
 }
 
@@ -277,6 +279,7 @@ label[for="search-field"] {
 }
 
 .trends {
+  height: calc(100% - 1.25rem - 2rem - 1rem);
   display: grid;
   gap: 1.5rem;
   box-shadow: 4px 4px 4px 1px var(--shadow-color);
