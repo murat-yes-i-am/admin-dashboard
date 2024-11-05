@@ -89,7 +89,6 @@ h2 {
 }
 
 .avatar {
-  /* display: inline-block; */
   height: var(--avatar-image-size);
   width: var(--avatar-image-size);
   border-radius: 50%;
@@ -161,6 +160,11 @@ label[for="search-field"] {
   grid-template-areas: "avatar message"
                        "avatar user";
   gap: 0 1rem;
+}
+
+.greetings-container .avatar {
+  height: var(--avatar-bigger-size);
+  width: var(--avatar-bigger-size);
 }
 
 .header__bottom .buttons {
