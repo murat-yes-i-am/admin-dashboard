@@ -120,10 +120,6 @@ h2 {
   align-items: center;
 }
 
-.user-container .avatar {
-  height: 3rem;
-}
-
 .user-action-btn {
   font-weight: 600;
   background-color: var(--sidebar-main-color);
