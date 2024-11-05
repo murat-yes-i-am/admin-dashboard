@@ -157,6 +157,7 @@ label[for="search-field"] {
 .greetings-container {
   grid-area: greetings;
   display: grid;
+  grid-template-columns: var(--avatar-bigger-size) 1fr;
   grid-template-areas: "avatar message"
                        "avatar user";
   gap: 0 1rem;
