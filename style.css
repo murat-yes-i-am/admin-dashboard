@@ -1,7 +1,7 @@
 :root {
   --avatar-image-size: 4rem;
-  --sidebar-main-color: rgb(255, 255, 255);
-  --sidebar-secondary-color: rgb(0, 0, 0);
+  --sidebar-main-color: rgb(81, 138, 237);
+  --sidebar-secondary-color: rgb(255, 255, 255);
   --main-text-color: black;
   --secondary-text-color: #666;
   --gray-color: #dadcdd;
@@ -87,8 +87,6 @@ h2 {
   gap: 0.5rem;
   align-items: center;
 }
-
-
 
 .avatar {
   /* display: inline-block; */
