@@ -116,8 +116,14 @@ h2 {
   grid-area: user;
   display: grid;
   grid-template-areas: "notifications avatar username";
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
+}
+
+.user-container .username {
+  color: var(--main-text-color);
+  font-size: 1.125rem;
+  font-weight: 700;
 }
 
 .user-action-btn {
