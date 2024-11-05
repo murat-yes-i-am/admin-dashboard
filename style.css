@@ -16,8 +16,8 @@ body {
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 4fr;
   grid-template-areas: 
-    'sidebar header'
-    'sidebar main';
+    "sidebar header"
+    "sidebar main";
 }
 
 p {
@@ -102,9 +102,25 @@ h2 {
 
 .header__top {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-areas: 'search user';
+  grid-template-columns: 2fr auto;
+  grid-template-areas: "search user";
   gap: minmax(2rem, 100px);
+}
+
+.search-container {
+  grid-area: search;
+}
+
+.user-container {
+  grid-area: user;
+  display: grid;
+  grid-template-areas: "notifications avatar username";
+  gap: 1rem;
+  align-items: center;
+}
+
+.user-container .avatar {
+  height: 3rem;
 }
 
 .user-action-btn {
@@ -123,8 +139,8 @@ h2 {
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: 
-    'projects announcements'
-    'projects trends';
+    "projects announcements"
+    "projects trends";
   gap: 1rem;
 }
 
@@ -189,8 +205,8 @@ h2 {
   grid-template-columns: var(--avatar-image-size) 1fr;
   grid-template-rows: 1f 1fr;
   grid-template-areas: 
-    'avatar tag'
-    'avatar project';
+    "avatar tag"
+    "avatar project";
   gap: 0 1rem;
 }
 
