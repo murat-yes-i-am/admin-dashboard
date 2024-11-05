@@ -105,7 +105,7 @@ h2 {
   background-color: var(--sidebar-main-color);
   color: var(--sidebar-secondary-color);
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 0.625rem 1.5rem;
 }
 
 .main-content {
