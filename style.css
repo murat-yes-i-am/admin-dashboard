@@ -149,6 +149,15 @@ label[for="search-field"] {
 
 .header__bottom {
   display: grid;
+  grid-template-areas: "greetings buttons";
+
+}
+
+.greetings-container {
+  display: grid;
+  grid-template-areas: "avatar message"
+                       "avatar user";
+  gap: 0 1rem;
 }
 
 .user-action-btn {
