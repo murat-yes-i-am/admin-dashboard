@@ -153,7 +153,7 @@ label[for="search-field"] {
   grid-template-areas: "greetings buttons";
 }
 
-.greetings-container {
+.greetings {
   grid-area: greetings;
   display: grid;
   grid-template-columns: var(--avatar-bigger-size) 1fr;
@@ -162,20 +162,20 @@ label[for="search-field"] {
   gap: 0 1rem;
 }
 
-.greetings-container .avatar {
+.greetings .avatar {
   grid-area: avatar;
   height: var(--avatar-bigger-size);
   width: var(--avatar-bigger-size);
 }
 
-.greetings-container .greetings-message {
+.greetings .message {
   font-size: 0.875rem;
   font-weight: 700;
   color: var(--main-text-color);
   grid-area: message;
 }
 
-.greetings-container .username {
+.greetings .username {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--main-text-color);
