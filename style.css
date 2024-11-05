@@ -100,7 +100,7 @@ h2 {
   background-color: var(--sidebar-secondary-color);
   padding: 1rem 2rem;
   grid-area: header;
-  box-shadow: 0 4px 4px 1px var(--shadow-color);
+  box-shadow: 2px 4px 4px 1px var(--shadow-color);
 }
 
 .header__top {
