@@ -149,15 +149,23 @@ label[for="search-field"] {
 
 .header__bottom {
   display: grid;
+  padding: 1rem;
   grid-template-areas: "greetings buttons";
-
 }
 
 .greetings-container {
+  grid-area: greetings;
   display: grid;
   grid-template-areas: "avatar message"
                        "avatar user";
   gap: 0 1rem;
+}
+
+.header__bottom .buttons {
+  grid-area: buttons;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
 }
 
 .user-action-btn {
