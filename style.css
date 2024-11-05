@@ -265,11 +265,11 @@ label[for="search-field"] {
   gap: 0 1rem;
 }
 
-.avatar {
+.trend .avatar {
   grid-area: avatar;
 }
 
-.tag {
+.trend .tag {
   color: var(--main-text-color);
   grid-area: tag;
   align-self: end;
