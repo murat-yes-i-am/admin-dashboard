@@ -147,6 +147,10 @@ label[for="search-field"] {
   font-weight: 700;
 }
 
+.header__bottom {
+  display: grid;
+}
+
 .user-action-btn {
   font-weight: 600;
   background-color: var(--sidebar-main-color);
