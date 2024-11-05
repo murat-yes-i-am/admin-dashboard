@@ -123,6 +123,10 @@ h2 {
 #search-field {
   grid-area: bar;
   max-width: 50ch;
+  background-color: var(--gray-color);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 1rem;
 }
 
 label[for="search-field"] {
