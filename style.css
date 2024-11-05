@@ -9,6 +9,7 @@
   --white-color: white;
   --card-border-color: orange;
   --border-radius: 8px;
+  --shadow-color: rgb(180, 180, 180);
 }
 
 body {
@@ -230,6 +231,7 @@ label[for="search-field"] {
 
 .project-card {
   border-left: var(--border-radius) solid var(--card-border-color);
+  box-shadow: 4px 4px 4px 1px var(--shadow-color);
   display: grid;
   gap: 1em;
 }
@@ -244,6 +246,10 @@ label[for="search-field"] {
 
 .announcements-section {
   grid-area: announcements;
+}
+
+.announcements {
+  box-shadow: 4px 4px 4px 1px var(--shadow-color);
 }
 
 .announcements .title {
@@ -271,6 +277,7 @@ label[for="search-field"] {
 .trends {
   display: grid;
   gap: 1.5rem;
+  box-shadow: 4px 4px 4px 1px var(--shadow-color);
 }
 
 .trend {
