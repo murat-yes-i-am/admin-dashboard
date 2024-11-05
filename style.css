@@ -138,9 +138,12 @@ p {
 
 .project-card {
   border-left: var(--border-radius) solid var(--card-border-color);
+  display: grid;
+  gap: 1em;
 }
 
 .project-card .buttons {
+  align-self: end;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: end;
