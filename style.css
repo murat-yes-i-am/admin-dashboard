@@ -208,6 +208,11 @@ label[for="search-field"] {
 
 .announcements .description {
   font-size: 0.875rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+          line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .announcements-section hr {
