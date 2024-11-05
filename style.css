@@ -29,6 +29,11 @@ button {
   cursor: pointer;
 }
 
+.icon {
+  justify-self: center;
+  height: 1.5rem;
+}
+
 .icon-btn {
   background-color: var(--white-color);
 }
@@ -83,11 +88,7 @@ h2 {
   align-items: center;
 }
 
-.icon {
-  justify-self: center;
-  height: 1.5rem;
-  display: inline-block;
-}
+
 
 .avatar {
   /* display: inline-block; */
