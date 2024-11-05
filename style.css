@@ -163,8 +163,23 @@ label[for="search-field"] {
 }
 
 .greetings-container .avatar {
+  grid-area: avatar;
   height: var(--avatar-bigger-size);
   width: var(--avatar-bigger-size);
+}
+
+.greetings-container .greetings-message {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--main-text-color);
+  grid-area: message;
+}
+
+.greetings-container .username {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--main-text-color);
+  grid-area: user;
 }
 
 .header__bottom .buttons {
