@@ -14,6 +14,7 @@
 
 body {
   color: var(--main-text-color);
+  background-color: var(--gray-color);
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-areas: 
@@ -96,8 +97,10 @@ h2 {
 }
 
 .header {
+  background-color: var(--sidebar-secondary-color);
   padding: 1rem 2rem;
   grid-area: header;
+  box-shadow: 0 4px 4px 1px var(--shadow-color);
 }
 
 .header__top {
@@ -202,7 +205,6 @@ label[for="search-field"] {
 
 .main-content {
   padding: 1rem;
-  background-color: var(--gray-color);
   grid-area: main;
   display: grid;
   grid-template-columns: 3fr 1fr;
