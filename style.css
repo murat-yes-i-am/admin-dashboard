@@ -156,6 +156,10 @@ p {
   grid-area: announcements;
 }
 
+.announcements .title {
+  font-size: 1rem;
+}
+
 .announcements .description {
   font-size: 0.875rem;
 }
